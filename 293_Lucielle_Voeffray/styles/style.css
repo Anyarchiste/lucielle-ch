@@ -27,9 +27,19 @@ img {
     margin-bottom: 0px;
 }
 
-img.transition{
+img.transition {
     width: 400px;
     height: 247px;
+}
+
+#Marsha_P {
+    width: auto;
+    height: auto;
+}
+
+.transFlag {
+    border-color: blanchedalmond;
+    border-style: solid;
 }
 
 .shadow {
@@ -136,6 +146,12 @@ article.left {
 
 .centerTxt {
     text-align: center;
+}
+
+.centerIMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Sources*/
