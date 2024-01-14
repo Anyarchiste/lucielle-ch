@@ -32,6 +32,16 @@ img.transition {
     height: auto;
 }
 
+img.science {
+    width: 500px;
+    height: 300px;
+}
+
+#flag {
+    width: 300px;
+    height: 300px;
+}
+
 #Marsha_P {
     width: auto;
     height: auto;
@@ -229,10 +239,6 @@ div.backgroundTeam {
     height: fit-content;
 }
 
-div.flexTeam {
-    display: flex;
-}
-
 div.centerTeam {
     margin-left: 20%;
     padding: 10px;
@@ -242,6 +248,7 @@ a.teamL {
     text-decoration: none;
 }
 
+/*En général pour les Téléphones et écrans verticaux*/
 @media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
@@ -263,5 +270,35 @@ a.teamL {
 
     article {
         text-align: center;
+    }
+}
+
+
+/*Pour les écrans très minces*/
+@media screen and (max-width: 385px) {
+    .flex {
+        flex-direction: column;
+    }
+
+    article.left {
+        flex-direction: column;
+    }
+
+    header {
+        background-image: url(../images/drapeau_trans.png);
+        background-size: 170px;
+        height: 380px;
+    }
+
+    .alignRight {
+        margin-left: 6%;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    .sources {
+        width: 300px;
     }
 }
