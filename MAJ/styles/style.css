@@ -1,0 +1,127 @@
+
+/* * {border: solid;} */
+
+body {
+    background-color: #f5a9b8;
+    width: 80%;
+}
+
+header {
+    background-image: url("../images/Drapeaux/drapeau_trans.png");
+    background-size: contain;
+    height: 100px;
+    border: solid wheat;
+    border-bottom: none;
+}
+
+button {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30px;
+    width: fit-content;
+    background-color: #f5a9b8;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: none;
+}
+
+nav {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+article {
+    margin: 20px;
+}
+
+img.catgender {
+    width: 400px;
+    height: auto;    
+}
+
+h3 {
+    margin: 0px;
+}
+
+.navi {
+    text-decoration: none;
+    color: #373131;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    margin: auto;
+    padding: 10px;
+}
+
+/* Messages Team*/
+.defaultMessages {
+    text-align: left;
+    font-size: 1.2em;
+    overflow: break-all;
+    width: 50%;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100%;
+    border: 0px;
+    border-radius: 40px;
+    margin: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    flex-shrink: 30%;
+}
+.lucielle {
+    background-color: #ffa69e;
+}
+.uwu {
+    background-color: #f9ecbe;
+}
+.anya {
+    background-color: #4e94ad;
+    color: #373131;
+}
+.any {
+    background-color: #db7f67;
+    color: #373131;
+}
+
+.alita {
+    background-color: #4e94ad;
+    color: #373131;
+}
+
+.unamed {
+    background-color: #ffa66e;
+    color: #db7f67;
+}
+
+.ahsoka {
+    background-color: #ffa69e;
+    color: #f5a9b8;
+}
+
+.imgFamMessages {
+    width: 150px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100%;
+    border: 0px;
+    border-radius: 40px;
+}
+.flexMessages {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+.flexMessagesReverse {
+    flex-direction: row-reverse;
+}

@@ -10,22 +10,23 @@
         <link rel="stylesheet" href="./styles/style.css" />
         <title>Anyarchiste</title>
     </head>
-    <body>
-        <header>
+    <body class="center">
+        <header class="center flex">
             <!-- Image du logo à mettre ici -->
-            <img src="" alt="">
+            <img src="" alt="" />
 
             <!-- Barre de navigation -->
-            <nav>
-                <button><a href="./index.html">Home</a></button>
-                <button><a href="./self-hosting.html">Self-hosting</a></button>
-                <button><a href="./contact.html">Contact</a></button>
+            <nav class="center">
+                <button><a class="navi" href="./index.html"><h3>Home</h3></a></button>
+                <button><a class="navi" href="./self-hosting.html"><h3>Self-hosting</h3></a></button>
+                <button><a class="navi" href="./contact.html"><h3>Contact</h3></a></button>
             </nav>
         </header>
 
         <main>
-            <article>
-                <h2>About us</h2>
+            <article class="flex">
+                <div>
+                    <h2 class="center">About us</h2>
                 <p>
                     HellOwO silly beans, we are the Anyarchiste system and use
                     she/her and nya/nya pronouns.
@@ -39,14 +40,37 @@
                     <br />
                     On top of that we are writers on AO3 and so much more !
                 </p>
+                </div>
 
                 <!-- Image du catgender -->
-                <img src="" alt="">
+                <img class="catgender" src="./images/Drapeaux/drapeau_catgender.png" alt="" />
             </article>
 
             <!-- Presentation of the teammates via messages style-->
             <messages>
+                <h2 class="center">Teammates</h2>
+                <div class="flexMessages">
+                    <div class="defaultMessages lucielle">
+                        <p>Hello UwU <br />Comment ça va ?</p>
+                    </div>
+                    <img
+                        class="imgFamMessages"
+                        src="https://www.lucielle.ch/img/Lucielle.png"
+                        alt="Image de Lucielle"
+                    />
+                </div>
+    
+                <div class="flexMessages flexMessagesReverse">
+                    <div class="defaultMessages uwu">
+                        <p>Salut Lucielle ! <br />Tout se passe bien et toi ?</p>
+                    </div>
 
+                    <img
+                        class="imgFamMessages"
+                        src="https://www.lucielle.ch/img/UwU.png"
+                        alt="Image de UwU"
+                    />
+                </div>
             </messages>
         </main>
 
