@@ -50,6 +50,10 @@ h3 {
     color: #373131;
 }
 
+#open {
+    background-color: #5BCEFA;
+}
+
 .flex {
     display: flex;
 }
