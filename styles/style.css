@@ -73,6 +73,11 @@ img.catgender {
     margin: 20px;
 }
 
+.legende {
+    margin: 0px;
+    font-size: smaller;
+}
+
 .contact {
     font-size:xx-large;
 }
