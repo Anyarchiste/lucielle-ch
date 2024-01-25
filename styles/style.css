@@ -69,6 +69,11 @@ img.catgender {
     width: auto;
 }
 
+#teammates {
+    margin: auto;
+    margin-left: 30%;
+}
+
 .masto {
     margin: 20px;
 }
