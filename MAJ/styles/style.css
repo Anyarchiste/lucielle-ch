@@ -55,6 +55,11 @@ img.catgender {
     color: #373131;
 }
 
+.invisible {
+    text-decoration: none;
+    color: #f5a9b8;
+}
+
 #open {
     background-color: #f5a9b8;
 }
@@ -62,6 +67,14 @@ img.catgender {
 #logo {
     height: 130px;
     width: auto;
+}
+
+.masto {
+    margin: 20px;
+}
+
+.contact {
+    font-size:xx-large;
 }
 
 .flex {
@@ -92,11 +105,11 @@ img.catgender {
 }
 .lucielle {
     background-color: #f07a6f;
-    color: 373131;
+    color: #373131;
 }
 .uwu {
     background-color: #f9ecbe;
-    color: 373131;
+    color: #373131;
 }
 .anya {
     background-color: #f54095;
@@ -140,4 +153,37 @@ img.catgender {
 
 .flexMessagesReverse {
     flex-direction: row-reverse;
+}
+
+/*Tableau Self-hosting*/
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+    background-color: #5BCEFA;
+}
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top;
 }

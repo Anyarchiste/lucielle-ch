@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Author: Anyarchiste
+    Date: 25.01.2024
+-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Anyarchiste</title>
+    </head>
+    <body class="center">
+        <header class="center flex">
+            <!-- Image du logo à mettre ici -->
+            <img
+                src="./images/logo/anyarchiste.PNG"
+                alt="'Anyarchiste' écrit avec le premier 'a' écrit dans le dessin du 'a' anarchiste"
+                id="logo"
+            />
+
+            <!-- Barre de navigation -->
+            <nav>
+                <button>
+                    <a class="navi" href="./index.html"><h3>Home</h3></a>
+                </button>
+                <button>
+                    <a class="navi" href="./self-hosting.html"
+                        ><h3>Self-hosting</h3></a
+                    >
+                </button>
+                <button id="open">
+                    <a class="navi" href="./contact.html"><h3>Contact</h3></a>
+                </button>
+            </nav>
+        </header>
+
+        <main class="flex">
+            <div class="masto">
+                <h2>Mastodon</h2>
+                <iframe
+                    src="https://is.nota.live/@anyarchiste/110650525750035418/embed"
+                    class="mastodon-embed"
+                    style="max-width: 100%; border: 0"
+                    width="400"
+                    allowfullscreen="allowfullscreen"
+                ></iframe>
+                <script
+                    src="https://is.nota.live/embed.js"
+                    async="async"
+                ></script>
+            </div>
+
+            <div class="masto">
+                <h2>Matrix</h2>
+                <a
+                    class="contact"
+                    target="_blank"
+                    href="https://cinny.lucielle.ch"
+                    >@anyarchiste:chat.lucielle.ch</a
+                >
+
+                <h2>Mail</h2>
+                <a class="contact" href="mailto:militantisme@lucielle.ch"
+                    >militantisme@lucielle.ch</a
+                >
+            </div>
+        </main>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>

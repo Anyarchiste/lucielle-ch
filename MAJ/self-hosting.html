@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Author: Anyarchiste
+    Date: 25.01.2024
+-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Anyarchiste</title>
+    </head>
+    <body class="center">
+        <header class="center flex">
+            <!-- Image du logo à mettre ici -->
+            <img
+                src="./images/logo/anyarchiste.PNG"
+                alt="'Anyarchiste' écrit avec le premier 'a' écrit dans le dessin du 'a' anarchiste"
+                id="logo"
+            />
+
+            <!-- Barre de navigation -->
+            <nav>
+                <button>
+                    <a class="navi" href="./index.html"><h3>Home</h3></a>
+                </button>
+                <button id="open">
+                    <a class="navi" href="./self-hosting.html"
+                        ><h3>Self-hosting</h3></a
+                    >
+                </button>
+                <button>
+                    <a class="navi" href="./contact.html"><h3>Contact</h3></a>
+                </button>
+            </nav>
+        </header>
+
+        <main>
+            <article class="flex">
+                <div>
+                    <h2 class="center">A long journey</h2>
+                    <p>
+                        As we said, we're trying to get rid of the Gafams. That
+                        comes with the intend to install a Nextcloud instance at
+                        home to replace google drive.
+                        <br />
+                        <br />
+                        Another plan that we have in mind is to start using
+                        Gitea or gitlab on our server too, in order to get rid
+                        of Github
+                        <br />
+                        <br />
+                        We already pushed Whatsapp out, sort of, by installing a
+                        matrix/synapse server at home, allowing our girlfriend
+                        and us to chat in a E2EE environment that is not owned
+                        by facebook.
+                    </p>
+                </div>
+
+                <!-- Image du catgender -->
+                <img
+                    class="catgender"
+                    src="./images/Drapeaux/drapeau_catgender.png"
+                    alt="Drapeau catgender"
+                />
+            </article>
+
+            <table class="tg">
+                <thead>
+                    <tr>
+                        <th>Services</th>
+                        <th>Statut</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tg-0lax">Matrix/synapse</td>
+                        <td class="tg-0lax">Up and running</td>
+                        <td class="tg-0lax">
+                            [Matrix] is a protocole that allows people to use
+                            instant and encrypted messaging from diverse
+                            providers. Like the Fediverse, you can choose where
+                            your data are stored
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Nextcloud</td>
+                        <td class="tg-0lax">Struggling to put it online</td>
+                        <td class="tg-0lax">
+                            Nextcloud is a cloud server that allows you, like
+                            google drive, to store all sorts of files. Being
+                            open-source, the programm allows a lot of addons
+                            that make life easier, such as a transparent E2EE
+                            protocole
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Gitea / Gitlab</td>
+                        <td class="tg-0lax">Project</td>
+                        <td class="tg-0lax">
+                            Those two servers allow what github allows but in a
+                            self-hosted way.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Blog</td>
+                        <td class="tg-0lax">Looking for a suitable option</td>
+                        <td class="tg-0lax">
+                            As of right now I can't tell you more, I still don't
+                            know how to approache that idea. Even thinking about
+                            a static HTML option
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">OpenVPN</td>
+                        <td class="tg-0lax">
+                            Project / looking for the equipments
+                        </td>
+                        <td class="tg-0lax">
+                            OpenVPN allows you to encrypt your internet traffic
+                            to a specific server. I would use it to have remote
+                            access to tools that I don't want to expose to the
+                            internet
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Portainer</td>
+                        <td class="tg-0lax">Up and running</td>
+                        <td class="tg-0lax">
+                            Allows you to have a pretty GUI for
+                            docker/kubernetes
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">NGinx proxy manager</td>
+                        <td class="tg-0lax">Up and running</td>
+                        <td class="tg-0lax">
+                            Pretty GUI for the NGinx proxy. I had issues with
+                            the jwilder/nginx-proxy because it asked for a new
+                            certificate everytime I restarted the server.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Cinny</td>
+                        <td class="tg-0lax">Up and running</td>
+                        <td class="tg-0lax">A webclient for matrix/synapse</td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">Matrix admin UI</td>
+                        <td class="tg-0lax">Up and running</td>
+                        <td class="tg-0lax">
+                            An easy to use GUI for the Matrix admin API
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tg-0lax">PiHole</td>
+                        <td class="tg-0lax">Project</td>
+                        <td class="tg-0lax">
+                            PiHole is a network wide add blocker
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <script src="./scripts/main.js"></script>
+    </body>
+</html>
