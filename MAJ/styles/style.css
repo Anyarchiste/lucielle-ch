@@ -29,6 +29,8 @@ nav {
     height: 100%;
     display: flex;
     align-items: flex-end;
+    margin-left: 20%;
+    padding: 10px;
 }
 
 article {
@@ -55,6 +57,11 @@ img.catgender {
 
 #open {
     background-color: #f5a9b8;
+}
+
+#logo {
+    height: 130px;
+    width: auto;
 }
 
 .flex {
@@ -84,13 +91,15 @@ img.catgender {
     flex-shrink: 30%;
 }
 .lucielle {
-    background-color: #ffa69e;
+    background-color: #f07a6f;
+    color: 373131;
 }
 .uwu {
     background-color: #f9ecbe;
+    color: 373131;
 }
 .anya {
-    background-color: #4e94ad;
+    background-color: #f54095;
     color: #373131;
 }
 .any {
@@ -99,18 +108,18 @@ img.catgender {
 }
 
 .alita {
-    background-color: #4e94ad;
+    background-color: #d463fa;
     color: #373131;
 }
 
 .unamed {
     background-color: #ffa66e;
-    color: #db7f67;
+    color: #373131;
 }
 
 .ahsoka {
-    background-color: #ffa69e;
-    color: #f5a9b8;
+    background-color: #34dbb2;
+    color: #373131;
 }
 
 .imgFamMessages {
