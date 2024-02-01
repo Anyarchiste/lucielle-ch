@@ -197,3 +197,31 @@ img.catgender {
     text-align: left;
     vertical-align: top;
 }
+
+@media screen and (max-width: 1000px){
+    .flex {
+        flex-direction: column;
+    }
+
+    #header {
+        flex-direction: column;
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+    .flexMessages {
+        flex-direction: column;
+    }
+
+    header {
+        height: fit-content;
+    }
+
+    img.catgender {
+        width: 300px;
+        height: auto;
+    }
+}
