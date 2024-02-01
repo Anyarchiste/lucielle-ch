@@ -84,7 +84,7 @@ img.catgender {
 }
 
 .contact {
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 .flex {
@@ -191,14 +191,14 @@ img.catgender {
     overflow: hidden;
     padding: 10px 5px;
     word-break: normal;
-    background-color: #5BCEFA;
+    background-color: #5bcefa;
 }
 .tg .tg-0lax {
     text-align: left;
     vertical-align: top;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
     }
