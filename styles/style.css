@@ -224,4 +224,12 @@ img.catgender {
         width: 300px;
         height: auto;
     }
+
+    .defaultMessages {
+        width: 100%;
+    }
+
+    #logo {
+        width: 50%;
+    }
 }
